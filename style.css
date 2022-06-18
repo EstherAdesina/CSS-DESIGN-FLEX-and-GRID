@@ -1,0 +1,65 @@
+ {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white
+}
+h3 {
+  color: hsl(0, 100%, 99%);
+}
+main {
+  width:50%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  align-content: stretch
+  
+}
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  font-size: 15px;
+  font-style:
+}
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+  font-size: 15px;
+}
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px;
+  font-size: 15px;
+ 
+}
+
+#sedanbtn {
+  border: none;
+  border-radius: 70px;
+  font-size: 1rem;
+  color: hsl(31, 77%, 52%);
+  background-color: white;
+}
+
+#suvbtn {
+  border: none;
+  border-radius: 70px;
+  font-size: 1rem;
+  color: hsl(184, 100%, 22%);
+  background-color: white;
+}
+
+#luxurybtn {
+  border: none;
+  border-radius: 70px;
+  font-size: 1rem;
+  color: hsl(179, 100%, 13%);
+  background-color: white;
+}
